@@ -1,0 +1,91 @@
+dataset,model,sampleset,k,n_samples,lime_mean,lime_std,lime_var,shap_mean,shap_std,shap_var,normality,ttest/W,p_value,interpretation
+cicids17,Catboost,general_idx,5,10,0.85829,0.01972,0.00039,0.80053,0.02348,0.00055,False,1.0,0.00391,Significant difference
+cicids17,Catboost,general_idx,10,10,0.86041,0.01549,0.00024,0.79526,0.01285,0.00017,True,10.74592,0.0,Significant difference
+cicids17,Catboost,general_idx,25,10,0.74861,0.01796,0.00032,0.71368,0.01826,0.00033,True,4.64985,0.0012,Significant difference
+cicids17,Catboost,general_idx,50,10,0.68221,0.01064,0.00011,0.59737,0.08235,0.00678,False,0.0,0.00195,Significant difference
+cicids17,Catboost,general_idx,64,10,0.33923,0.0,0.0,0.11111,0.0,0.0,False,0.0,0.00195,Significant difference
+cicids17,Catboost,true_idx,5,10,0.85829,0.01972,0.00039,0.80053,0.02348,0.00055,False,1.0,0.00391,Significant difference
+cicids17,Catboost,true_idx,10,10,0.85796,0.01719,0.0003,0.79362,0.01209,0.00015,False,0.0,0.00195,Significant difference
+cicids17,Catboost,true_idx,25,10,0.748,0.01344,0.00018,0.71111,0.01939,0.00038,True,4.7587,0.00103,Significant difference
+cicids17,Catboost,true_idx,50,10,0.68539,0.00873,8e-05,0.51744,0.06668,0.00445,False,0.0,0.00195,Significant difference
+cicids17,Catboost,true_idx,64,10,0.318,0.06712,0.0045,0.11111,0.0,0.0,False,0.0,0.00195,Significant difference
+cicids17,Catboost,false_idx,5,10,0.84827,0.00536,3e-05,0.79892,0.01318,0.00017,True,9.87157,0.0,Significant difference
+cicids17,Catboost,false_idx,10,10,0.84858,0.01752,0.00031,0.79095,0.01584,0.00025,True,8.1995,2e-05,Significant difference
+cicids17,Catboost,false_idx,25,10,0.8473,0.00624,4e-05,0.70265,0.02291,0.00052,True,18.84928,0.0,Significant difference
+cicids17,Catboost,false_idx,50,10,0.65543,0.04223,0.00178,0.49206,0.03647,0.00133,True,9.63546,0.0,Significant difference
+cicids17,Catboost,false_idx,64,10,0.14003,0.08463,0.00716,0.11111,0.0,0.0,False,0.0,0.5,No significant difference
+cicids17,RandomForest,general_idx,5,10,0.92145,0.01237,0.00015,0.91642,0.00494,2e-05,False,16.0,0.27539,No significant difference
+cicids17,RandomForest,general_idx,10,10,0.92191,0.01902,0.00036,0.91509,0.01297,0.00017,False,21.0,0.55664,No significant difference
+cicids17,RandomForest,general_idx,25,10,0.91636,0.01506,0.00023,0.90447,0.00874,8e-05,False,12.0,0.13086,No significant difference
+cicids17,RandomForest,general_idx,50,10,0.89368,0.02927,0.00086,0.68879,0.05469,0.00299,True,9.80178,0.0,Significant difference
+cicids17,RandomForest,general_idx,64,10,0.16451,0.0815,0.00664,0.11114,0.0,0.0,False,21.0,0.54688,No significant difference
+cicids17,RandomForest,true_idx,5,10,0.92145,0.01237,0.00015,0.92038,0.00855,7e-05,False,25.0,0.8457,No significant difference
+cicids17,RandomForest,true_idx,10,10,0.92316,0.01596,0.00025,0.91167,0.00693,5e-05,False,13.0,0.16016,No significant difference
+cicids17,RandomForest,true_idx,25,10,0.91636,0.01506,0.00023,0.90701,0.01578,0.00025,False,13.0,0.16016,No significant difference
+cicids17,RandomForest,true_idx,50,10,0.89957,0.01795,0.00032,0.69402,0.05115,0.00262,True,10.83543,0.0,Significant difference
+cicids17,RandomForest,true_idx,64,10,0.32178,0.23472,0.05509,0.11114,0.0,0.0,False,3.0,0.01953,Significant difference
+cicids17,RandomForest,false_idx,5,10,0.92145,0.01237,0.00015,0.9106,0.00826,7e-05,False,6.0,0.02734,Significant difference
+cicids17,RandomForest,false_idx,10,10,0.92225,0.01682,0.00028,0.92021,0.01865,0.00035,False,23.0,0.69531,No significant difference
+cicids17,RandomForest,false_idx,25,10,0.91636,0.01506,0.00023,0.9058,0.01703,0.00029,False,13.0,0.16016,No significant difference
+cicids17,RandomForest,false_idx,50,10,0.88753,0.02404,0.00058,0.61818,0.04555,0.00208,True,19.09268,0.0,Significant difference
+cicids17,RandomForest,false_idx,64,10,0.25591,0.2146,0.04605,0.11114,0.0,0.0,False,10.0,0.08203,No significant difference
+cicids17,XGBoost,general_idx,5,10,0.95428,0.01102,0.00012,0.85228,0.00089,0.0,False,0.0,0.00195,Significant difference
+cicids17,XGBoost,general_idx,10,10,0.88928,0.02013,0.00041,0.85137,0.00023,0.0,False,0.0,0.00195,Significant difference
+cicids17,XGBoost,general_idx,25,10,0.86858,0.00531,3e-05,0.81539,0.00402,2e-05,False,0.0,0.00195,Significant difference
+cicids17,XGBoost,general_idx,50,10,0.76901,0.05804,0.00337,0.74095,0.02399,0.00058,False,16.0,0.27539,No significant difference
+cicids17,XGBoost,general_idx,64,10,0.23716,0.0908,0.00824,0.11111,0.0,0.0,True,4.3899,0.00175,Significant difference
+cicids17,XGBoost,true_idx,5,10,0.95428,0.01102,0.00012,0.85228,0.00089,0.0,False,0.0,0.00195,Significant difference
+cicids17,XGBoost,true_idx,10,10,0.87683,0.0,0.0,0.85137,0.00023,0.0,False,0.0,0.00195,Significant difference
+cicids17,XGBoost,true_idx,25,10,0.86792,0.00555,3e-05,0.82329,0.01214,0.00015,False,0.0,0.00195,Significant difference
+cicids17,XGBoost,true_idx,50,10,0.77352,0.06593,0.00435,0.74461,0.0195,0.00038,False,18.0,0.375,No significant difference
+cicids17,XGBoost,true_idx,64,10,0.18801,0.09651,0.00932,0.11111,0.0,0.0,False,0.0,0.03125,Significant difference
+cicids17,XGBoost,false_idx,5,10,0.96025,0.00087,0.0,0.87926,0.00026,0.0,False,0.0,0.00195,Significant difference
+cicids17,XGBoost,false_idx,10,10,0.87683,0.0,0.0,0.91158,0.0112,0.00013,False,0.0,0.00195,Significant difference
+cicids17,XGBoost,false_idx,25,10,0.8735,0.00106,0.0,0.77554,0.02167,0.00047,False,0.0,0.00195,Significant difference
+cicids17,XGBoost,false_idx,50,10,0.75052,0.06227,0.00388,0.7549,0.00306,1e-05,False,27.0,1.0,No significant difference
+cicids17,XGBoost,false_idx,64,10,0.18681,0.09859,0.00972,0.11111,0.0,0.0,False,0.0,0.01562,Significant difference
+cicids18,Catboost,general_idx,5,10,0.72454,0.00465,2e-05,0.72109,0.00172,0.0,False,11.0,0.10547,No significant difference
+cicids18,Catboost,general_idx,10,10,0.72488,0.00469,2e-05,0.70018,0.03158,0.001,False,0.0,0.00195,Significant difference
+cicids18,Catboost,general_idx,25,10,0.71836,0.00288,1e-05,0.64164,0.00422,2e-05,False,0.0,0.00195,Significant difference
+cicids18,Catboost,general_idx,50,10,0.63361,0.00045,0.0,0.2265,0.06496,0.00422,False,0.0,0.00195,Significant difference
+cicids18,Catboost,general_idx,62,10,0.18979,0.06045,0.00365,0.14293,0.00022,0.0,False,0.0,0.03125,Significant difference
+cicids18,Catboost,true_idx,5,10,0.72454,0.00465,2e-05,0.72109,0.00172,0.0,False,11.0,0.10547,No significant difference
+cicids18,Catboost,true_idx,10,10,0.72649,0.00366,1e-05,0.71318,0.02069,0.00043,False,0.0,0.00195,Significant difference
+cicids18,Catboost,true_idx,25,10,0.71708,0.00439,2e-05,0.64274,0.00819,7e-05,False,0.0,0.00195,Significant difference
+cicids18,Catboost,true_idx,50,10,0.63356,0.00047,0.0,0.23758,0.04863,0.00236,False,0.0,0.00195,Significant difference
+cicids18,Catboost,true_idx,62,10,0.19514,0.05965,0.00356,0.14306,0.00064,0.0,False,0.0,0.00781,Significant difference
+cicids18,Catboost,false_idx,5,10,0.72772,0.00172,0.0,0.72111,0.00173,0.0,False,0.0,0.00195,Significant difference
+cicids18,Catboost,false_idx,10,10,0.72055,0.00041,0.0,0.71982,0.0004,0.0,True,4.13254,0.00255,Significant difference
+cicids18,Catboost,false_idx,25,10,0.66088,0.02062,0.00043,0.64219,0.00388,2e-05,False,0.0,0.00195,Significant difference
+cicids18,Catboost,false_idx,50,10,0.61873,0.02004,0.0004,0.26834,0.03395,0.00115,False,0.0,0.00195,Significant difference
+cicids18,Catboost,false_idx,62,10,0.20194,0.07868,0.00619,0.14286,1e-05,0.0,False,1.0,0.0625,No significant difference
+cicids18,RandomForest,general_idx,5,10,0.84974,0.00537,3e-05,0.76629,0.00654,4e-05,True,29.40535,0.0,Significant difference
+cicids18,RandomForest,general_idx,10,10,0.84408,0.00585,3e-05,0.76757,0.00422,2e-05,True,35.21635,0.0,Significant difference
+cicids18,RandomForest,general_idx,25,10,0.73279,0.00458,2e-05,0.74824,0.00989,0.0001,True,-4.04977,0.00289,Significant difference
+cicids18,RandomForest,general_idx,50,10,0.54651,0.0102,0.0001,0.43353,0.03015,0.00091,False,0.0,0.00195,Significant difference
+cicids18,RandomForest,general_idx,62,10,0.1604,0.0164,0.00027,0.14392,0.0,0.0,False,1.0,0.00781,Significant difference
+cicids18,RandomForest,true_idx,5,10,0.84974,0.00537,3e-05,0.76629,0.00654,4e-05,True,29.40535,0.0,Significant difference
+cicids18,RandomForest,true_idx,10,10,0.84408,0.00585,3e-05,0.76432,0.00506,3e-05,True,37.92079,0.0,Significant difference
+cicids18,RandomForest,true_idx,25,10,0.73405,0.00587,3e-05,0.74677,0.00872,8e-05,False,3.0,0.00977,Significant difference
+cicids18,RandomForest,true_idx,50,10,0.54139,0.00966,9e-05,0.39704,0.07043,0.00496,False,0.0,0.00195,Significant difference
+cicids18,RandomForest,true_idx,62,10,0.15845,0.0149,0.00022,0.1439,5e-05,0.0,False,0.0,0.00781,Significant difference
+cicids18,RandomForest,false_idx,5,10,0.84974,0.00537,3e-05,0.80053,0.04017,0.00161,False,3.0,0.00977,Significant difference
+cicids18,RandomForest,false_idx,10,10,0.84408,0.00585,3e-05,0.7624,0.0053,3e-05,True,31.02266,0.0,Significant difference
+cicids18,RandomForest,false_idx,25,10,0.73485,0.00576,3e-05,0.74033,0.01043,0.00011,False,15.0,0.23242,No significant difference
+cicids18,RandomForest,false_idx,50,10,0.54593,0.01321,0.00017,0.45584,0.03341,0.00112,True,7.65802,3e-05,Significant difference
+cicids18,RandomForest,false_idx,62,10,0.16608,0.02709,0.00073,0.14509,0.00376,1e-05,False,0.0,0.01562,Significant difference
+cicids18,XGBoost,general_idx,5,10,0.7497,0.0001,0.0,0.74406,1e-05,0.0,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,general_idx,10,10,0.74978,0.0,0.0,0.6817,0.00412,2e-05,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,general_idx,25,10,0.73854,2e-05,0.0,0.66394,0.00291,1e-05,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,general_idx,50,10,0.53927,0.12369,0.0153,0.41892,0.00886,8e-05,False,5.0,0.01953,Significant difference
+cicids18,XGBoost,general_idx,62,10,0.17384,0.06529,0.00426,0.15834,0.04897,0.0024,False,3.0,0.3125,No significant difference
+cicids18,XGBoost,true_idx,5,10,0.74968,0.0001,0.0,0.74407,1e-05,0.0,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,true_idx,10,10,0.74978,0.0,0.0,0.68118,0.00303,1e-05,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,true_idx,25,10,0.73966,0.00235,1e-05,0.6612,0.0001,0.0,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,true_idx,50,10,0.56683,0.11013,0.01213,0.41752,0.00964,9e-05,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,true_idx,62,10,0.18966,0.07591,0.00576,0.14307,0.00066,0.0,False,0.0,0.0625,No significant difference
+cicids18,XGBoost,false_idx,5,10,0.74972,0.0001,0.0,0.68478,0.0,0.0,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,false_idx,10,10,0.74978,0.0,0.0,0.68215,0.00287,1e-05,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,false_idx,25,10,0.74084,0.00296,1e-05,0.66984,0.00646,4e-05,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,false_idx,50,10,0.56898,0.10668,0.01138,0.4164,0.00014,0.0,False,0.0,0.00195,Significant difference
+cicids18,XGBoost,false_idx,62,10,0.20851,0.07505,0.00563,0.15834,0.04897,0.0024,False,4.0,0.21875,No significant difference

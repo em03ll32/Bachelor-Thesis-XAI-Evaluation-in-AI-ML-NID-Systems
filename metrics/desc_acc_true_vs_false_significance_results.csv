@@ -1,0 +1,61 @@
+dataset,model,explainer,k,true_mean,true_std,true_var,false_mean,false_std,false_var,normality,ttest/W,p_value,interpretation
+cicids17,Catboost,lime,5,0.85829,0.01972,0.00039,0.84827,0.00536,3e-05,True,1.55144,0.1509,No significant difference
+cicids17,Catboost,lime,10,0.85796,0.01719,0.0003,0.84858,0.01752,0.00031,False,65.0,0.27304,No significant difference
+cicids17,Catboost,lime,25,0.748,0.01344,0.00018,0.8473,0.00624,4e-05,True,-21.19032,0.0,Significant difference
+cicids17,Catboost,lime,50,0.68539,0.00873,8e-05,0.65543,0.04223,0.00178,True,2.19732,0.0533,No significant difference
+cicids17,Catboost,lime,64,0.318,0.06712,0.0045,0.14003,0.08463,0.00716,False,89.0,0.00249,Significant difference
+cicids17,Catboost,shap,5,0.80053,0.02348,0.00055,0.79892,0.01318,0.00017,False,38.0,0.38467,No significant difference
+cicids17,Catboost,shap,10,0.79362,0.01209,0.00015,0.79095,0.01584,0.00025,True,0.42357,0.67725,No significant difference
+cicids17,Catboost,shap,25,0.71111,0.01939,0.00038,0.70265,0.02291,0.00052,True,0.89117,0.38491,No significant difference
+cicids17,Catboost,shap,50,0.51744,0.06668,0.00445,0.49206,0.03647,0.00133,False,56.0,0.67758,No significant difference
+cicids17,Catboost,shap,64,0.11111,0.0,0.0,0.11111,0.0,0.0,True,0.0,1.0,No significant difference
+cicids17,RandomForest,lime,5,0.92145,0.01237,0.00015,0.92145,0.01237,0.00015,False,50.0,1.0,No significant difference
+cicids17,RandomForest,lime,10,0.92316,0.01596,0.00025,0.92225,0.01682,0.00028,False,54.5,0.76159,No significant difference
+cicids17,RandomForest,lime,25,0.91636,0.01506,0.00023,0.91636,0.01506,0.00023,True,0.0,1.0,No significant difference
+cicids17,RandomForest,lime,50,0.89957,0.01795,0.00032,0.88753,0.02404,0.00058,True,1.2698,0.22161,No significant difference
+cicids17,RandomForest,lime,64,0.32178,0.23472,0.05509,0.25591,0.2146,0.04605,False,58.5,0.54398,No significant difference
+cicids17,RandomForest,shap,5,0.92038,0.00855,7e-05,0.9106,0.00826,7e-05,False,84.0,0.01133,Significant difference
+cicids17,RandomForest,shap,10,0.91167,0.00693,5e-05,0.92021,0.01865,0.00035,True,-1.35804,0.20063,No significant difference
+cicids17,RandomForest,shap,25,0.90701,0.01578,0.00025,0.9058,0.01703,0.00029,False,61.0,0.42736,No significant difference
+cicids17,RandomForest,shap,50,0.69402,0.05115,0.00262,0.61818,0.04555,0.00208,True,3.50111,0.00259,Significant difference
+cicids17,RandomForest,shap,64,0.11114,0.0,0.0,0.11114,0.0,0.0,True,,,Significant difference
+cicids17,XGBoost,lime,5,0.95428,0.01102,0.00012,0.96025,0.00087,0.0,False,4.5,0.00016,Significant difference
+cicids17,XGBoost,lime,10,0.87683,0.0,0.0,0.87683,0.0,0.0,False,95.0,0.0001,Significant difference
+cicids17,XGBoost,lime,25,0.86792,0.00555,3e-05,0.8735,0.00106,0.0,False,34.0,0.24097,No significant difference
+cicids17,XGBoost,lime,50,0.77352,0.06593,0.00435,0.75052,0.06227,0.00388,True,0.80169,0.43322,No significant difference
+cicids17,XGBoost,lime,64,0.18801,0.09651,0.00932,0.18681,0.09859,0.00972,False,49.5,1.0,No significant difference
+cicids17,XGBoost,shap,5,0.85228,0.00089,0.0,0.87926,0.00026,0.0,False,0.0,8e-05,Significant difference
+cicids17,XGBoost,shap,10,0.85137,0.00023,0.0,0.91158,0.0112,0.00013,False,0.0,4e-05,Significant difference
+cicids17,XGBoost,shap,25,0.82329,0.01214,0.00015,0.77554,0.02167,0.00047,False,93.0,0.00117,Significant difference
+cicids17,XGBoost,shap,50,0.74461,0.0195,0.00038,0.7549,0.00306,1e-05,False,45.0,0.73149,No significant difference
+cicids17,XGBoost,shap,64,0.11111,0.0,0.0,0.11111,0.0,0.0,True,0.0,1.0,No significant difference
+cicids18,Catboost,lime,5,0.72454,0.00465,2e-05,0.72772,0.00172,0.0,False,41.0,0.52052,No significant difference
+cicids18,Catboost,lime,10,0.72649,0.00366,1e-05,0.72055,0.00041,0.0,False,90.0,0.00283,Significant difference
+cicids18,Catboost,lime,25,0.71708,0.00439,2e-05,0.66088,0.02062,0.00043,False,96.0,0.00058,Significant difference
+cicids18,Catboost,lime,50,0.63356,0.00047,0.0,0.61873,0.02004,0.0004,True,2.33967,0.04401,Significant difference
+cicids18,Catboost,lime,62,0.19514,0.05965,0.00356,0.20194,0.07868,0.00619,False,57.0,0.61284,No significant difference
+cicids18,Catboost,shap,5,0.72109,0.00172,0.0,0.72111,0.00173,0.0,False,48.0,0.90959,No significant difference
+cicids18,Catboost,shap,10,0.71318,0.02069,0.00043,0.71982,0.0004,0.0,False,35.5,0.28865,No significant difference
+cicids18,Catboost,shap,25,0.64274,0.00819,7e-05,0.64219,0.00388,2e-05,True,0.19134,0.85125,No significant difference
+cicids18,Catboost,shap,50,0.23758,0.04863,0.00236,0.26834,0.03395,0.00115,False,43.5,0.65002,No significant difference
+cicids18,Catboost,shap,62,0.14306,0.00064,0.0,0.14286,1e-05,0.0,False,50.5,1.0,No significant difference
+cicids18,RandomForest,lime,5,0.84974,0.00537,3e-05,0.84974,0.00537,3e-05,True,0.0,1.0,No significant difference
+cicids18,RandomForest,lime,10,0.84408,0.00585,3e-05,0.84408,0.00585,3e-05,True,0.0,1.0,No significant difference
+cicids18,RandomForest,lime,25,0.73405,0.00587,3e-05,0.73485,0.00576,3e-05,True,-0.30734,0.76211,No significant difference
+cicids18,RandomForest,lime,50,0.54139,0.00966,9e-05,0.54593,0.01321,0.00017,True,-0.87864,0.39223,No significant difference
+cicids18,RandomForest,lime,62,0.15845,0.0149,0.00022,0.16608,0.02709,0.00073,False,47.0,0.84783,No significant difference
+cicids18,RandomForest,shap,5,0.76629,0.00654,4e-05,0.80053,0.04017,0.00161,False,23.0,0.04515,Significant difference
+cicids18,RandomForest,shap,10,0.76432,0.00506,3e-05,0.7624,0.0053,3e-05,True,0.82794,0.41857,No significant difference
+cicids18,RandomForest,shap,25,0.74677,0.00872,8e-05,0.74033,0.01043,0.00011,False,72.0,0.10411,No significant difference
+cicids18,RandomForest,shap,50,0.39704,0.07043,0.00496,0.45584,0.03341,0.00112,False,20.0,0.02575,Significant difference
+cicids18,RandomForest,shap,62,0.1439,5e-05,0.0,0.14509,0.00376,1e-05,False,45.5,0.62635,No significant difference
+cicids18,XGBoost,lime,5,0.74968,0.0001,0.0,0.74972,0.0001,0.0,False,40.0,0.40756,No significant difference
+cicids18,XGBoost,lime,10,0.74978,0.0,0.0,0.74978,0.0,0.0,True,,,Significant difference
+cicids18,XGBoost,lime,25,0.73966,0.00235,1e-05,0.74084,0.00296,1e-05,False,37.0,0.2813,No significant difference
+cicids18,XGBoost,lime,50,0.56683,0.11013,0.01213,0.56898,0.10668,0.01138,False,51.0,0.96985,No significant difference
+cicids18,XGBoost,lime,62,0.18966,0.07591,0.00576,0.20851,0.07505,0.00563,False,48.5,0.93554,No significant difference
+cicids18,XGBoost,shap,5,0.74407,1e-05,0.0,0.68478,0.0,0.0,False,100.0,6e-05,Significant difference
+cicids18,XGBoost,shap,10,0.68118,0.00303,1e-05,0.68215,0.00287,1e-05,False,48.0,0.9089,No significant difference
+cicids18,XGBoost,shap,25,0.6612,0.0001,0.0,0.66984,0.00646,4e-05,False,10.0,0.00272,Significant difference
+cicids18,XGBoost,shap,50,0.41752,0.00964,9e-05,0.4164,0.00014,0.0,False,22.0,0.03402,Significant difference
+cicids18,XGBoost,shap,62,0.14307,0.00066,0.0,0.15834,0.04897,0.0024,False,49.5,1.0,No significant difference
