@@ -23,5 +23,5 @@ By providing a statistically validated framework for XAI evaluation, this resear
 
 | Algorithm | Hash Value |
 | :--- | :--- |
-| **MD5** | `7e62859c5e12274324808784ced38ef4` |
 | **SHA256** | `0fbb7c024d3574802ca5f4f50382656b45d9f98aadbdde0ce87264111b406d07` |
+| **SHA512** | `a33f35c6d5e1896529439b96a0d17ca3e9fcfcdad31a1c3f0ec76a301b23974734f4e544cd00199d7f37252fd3cdb6846c71d033064ae00368b05f9af09afbb0` |
